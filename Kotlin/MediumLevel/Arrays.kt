@@ -11,6 +11,6 @@ fun main(args: Array<String>) {
 
     val arr = scan.nextLine().split(" ").map { it.trim().toInt() }.toTypedArray()
     for (i in arr.size - 1 downTo 0) {
-        println("${arr[i]}")
+        println("${arr[i]} ")
     }
 }
