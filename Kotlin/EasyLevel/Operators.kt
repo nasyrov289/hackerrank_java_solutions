@@ -16,11 +16,12 @@ import kotlin.jvm.internal.*
 import kotlin.ranges.*
 import kotlin.sequences.*
 import kotlin.text.*
+import kotlin.math.round
 
 fun solve(meal_cost: Double, tip_percent: Int, tax_percent: Int): Unit {
     var tip = meal_cost * tip_percent/100
     var tax = meal_cost * tax_percent/100
-    var totalCost = tip + tax + meal_cost
+    var totalCost = round(tip + tax + meal_cost)
     println(totalCost.toInt())
     
 
