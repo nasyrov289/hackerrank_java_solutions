@@ -1,4 +1,4 @@
-# Hackerrank Java Solutions
+# Hackerrank Java/Kotlin Solutions
 
 ## About Hackerrank
 ```
