@@ -2,7 +2,7 @@ import java.util.*;
 
 
 class Student{}
-class Rockstar{   }
+class Rockstar{}
 class Hacker{}
 
 
