@@ -1,6 +1,8 @@
-import java.util.*;
+package EasyLevel;
 
-public class Solution {
+import java.util.Scanner;
+
+public class Java_Stdin_and_Stdout_I {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

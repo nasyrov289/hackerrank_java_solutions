@@ -1,4 +1,8 @@
-class MyCalculator implements AdvancedArithmetic{
+package MediumLevel;
+
+import MediumLevel.AdvancedArithmetic;
+
+class MyCalculator implements AdvancedArithmetic {
     public int divisor_sum(int n){
         int sum = 0;
         for(int i = 1;i<=n;i++){

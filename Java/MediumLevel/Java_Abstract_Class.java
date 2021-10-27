@@ -1,8 +1,12 @@
+package MediumLevel;
+
 import java.util.Scanner;
 
 abstract class Book {
     String title;
+
     abstract void setTitle(String s);
+
     String getTitle() {
         return title;
     }
@@ -14,7 +18,7 @@ class MyBook extends Book {
     }
 }
 
-public class JavaAbstractClass {
+class JavaAbstractClass {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String title = sc.nextLine();
